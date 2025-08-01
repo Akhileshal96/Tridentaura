@@ -6,9 +6,9 @@ risk:
     start: "09:15"
     end: "15:15"
   global_context:
-    vix_threshold: 20.0  # Avoid trades if India VIX > 20
-    gift_nifty_gap: 0.01  # Avoid trades if GIFT Nifty down > 1%
-    us_futures_gap: 0.01  # Avoid trades if US futures down > 1%
-    asian_markets_gap: 0.01  # Avoid trades if Asian markets down > 1%
-    usdinr_change: 0.005  # Avoid trades if USD/INR up > 0.5%
-    sector_rank_threshold: 3  # Only trade stocks in top 3 sectors
+    vix_threshold: 20.0
+    gift_nifty_gap: 0.01
+    us_futures_gap: 0.01
+    asian_markets_gap: 0.01
+    usdinr_change: 0.005
+    sector_rank_threshold: 3
