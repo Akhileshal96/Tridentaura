@@ -1,0 +1,7 @@
+.env
+logs/*
+models/drl_legend.pt
+bot.session
+data/nifty100.csv
+__pycache__/
+*.pyc
